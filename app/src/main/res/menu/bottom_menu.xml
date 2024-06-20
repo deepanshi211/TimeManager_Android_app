@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/bottomNavBarMenuStopwatch"
+        android:title="@string/stopwatch"
+        android:icon="@drawable/bottom_nav_stopwatch"
+        />
+    <item
+        android:id="@+id/bottomNavBarMenuTask"
+        android:title="@string/task"
+        android:icon="@drawable/file"
+
+        />
+    <item
+        android:id="@+id/bottomNavBarMenuHabit"
+        android:title="@string/habit"
+        android:icon="@drawable/habitcurrent"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/bottomNavBarMenuHome"
+        android:title="@string/home"
+        android:icon="@drawable/bottom_nav_homepage"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/bottomNavBarMenuReport"
+        android:title="@string/report"
+        android:icon="@drawable/bottom_nav_report"
+        android:visible="true"
+        />
+
+</menu>

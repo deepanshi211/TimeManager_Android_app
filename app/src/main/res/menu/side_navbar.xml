@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/pages">
+        <menu>
+            <item
+                android:title="@string/tasks"
+                android:id="@+id/sideNavBarMenuTasks"
+                android:icon="@drawable/file"
+                />
+            <item
+                android:title="@string/habit_tracker"
+                android:id="@+id/sideNavBarMenuHabitTracker"
+                android:icon="@drawable/history__1_"
+                />
+            <item
+                android:title="@string/exercise"
+                android:id="@+id/sideNavBarMenuExercise"
+                android:icon="@drawable/exercise_48px"
+                />
+        </menu>
+    </item>
+    <item android:title="@string/profile"
+
+        >
+        <menu>
+            <item android:title="@string/settings"
+                android:id="@+id/sideNavBarMenuSettings"
+                android:icon="@drawable/settings_icon"
+                />
+            <item android:title="@string/logout"
+                android:id="@+id/sideNavBarMenuLogout"
+                android:icon="@drawable/logout_icon"
+                />
+        </menu>
+    </item>
+</menu>

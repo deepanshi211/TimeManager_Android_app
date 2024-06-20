@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  button color needed to be changed so this is used  -->
+    <style name="buttonCurved" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/buttonColorCustom</item>
+    </style>
+
+</resources>
